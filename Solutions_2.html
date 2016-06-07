@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Solution_2</title>
+	<link rel="stylesheet" href="Styles.css">
+</head>
+<style>
+Margin: 0;
+padding: 0;
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  }
+    
+h1 {
+    text-align: center;
+}
+
+p1, p2, p3{
+	position: relative-repeat;
+	width: 100%;
+	height: 50px;
+	background-color: #bf4080;
+	border: 2px solid black;
+	font-family: Helvetica;
+	color: white;
+	bottom: 20px;
+	left: 0;
+	
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3,  {
+    float: left;
+     }
+  .col-lg-1 {
+    width: 33%%;
+  }
+  .col-lg-2 {
+    width: 66%;
+  }
+  .col-lg-3 {
+    width: 100%;
+	}
+	
+  
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+.col-lg-1, .col-lg-2, .col-lg-3,  {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-lg-1 {
+    width: 33%%;
+  }
+  .col-lg-2 {
+    width: 66%;
+  }
+  .col-lg-3 {
+    width: 100%;
+  }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+.col-lg-1, .col-lg-2, .col-lg-3,  {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-lg-1 {
+    width: 33%%;
+  }
+  .col-lg-2 {
+    width: 66%;
+  }
+  .col-lg-3 {
+    width: 100%;
+
+
+</style>
+<body>
+<h1>Our Menu</h1>
+
+<div class="main">
+	<p1>Chicken</p> 
+	<p2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus amet alias est? Nobis cum quasi at soluta odit, maiores quaerat dolores expedita ex nemo ea repellendus dolorem sed maxime quos?</p>
+	<p3>Beef</p>  
+	<p4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus amet alias est? Nobis cum quasi at soluta odit, maiores quaerat dolores expedita ex nemo ea repellendus dolorem sed maxime quos?</p>
+	<p5>Sushi</p> 
+	<p6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nemo ipsum dolores vel modi magnam veniam alias at nam. Voluptatem officiis dolor dolorem aspernatur dolorum modi ipsa, nobis animi aut!</p>
+
+
+
+</div>
+</body>
+</html>
